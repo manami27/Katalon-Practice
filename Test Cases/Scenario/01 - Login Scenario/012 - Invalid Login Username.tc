@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>012 - Invalid Login Username</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a9e312c7-3099-43f9-bf3f-4b4417397c65</testCaseGuid>
+</TestCaseEntity>

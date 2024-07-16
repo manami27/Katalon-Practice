@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>TS Valid Login</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>3</numberOfRerun>
+   <pageLoadTimeout>2</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>5188e54e-19fd-4262-8f31-4840ffc1242a</testSuiteGuid>
+   <testCaseLink>
+      <guid>fe83b7cc-caf9-47de-9582-ab30dbb87f8b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Scenario/01 - Login Scenario/011 - Valid Login</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>98eba90e-970b-4036-818c-c159b167517d</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Katalon Data/Login_Data_Excel</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>98eba90e-970b-4036-818c-c159b167517d</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>ddc6be60-4e3f-48e1-bcb1-89ec48805183</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>98eba90e-970b-4036-818c-c159b167517d</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>18cc84e8-1e1a-4aee-9de4-7748ce23300b</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>8ae7df84-479f-44bb-93f4-7520b55d1ca9</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Scenario/02 - Make Appointment/021 - Valid Make Appointment</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>5a3338a3-254f-44c3-ad1f-fca9276a5adf</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Katalon Data/Appointment</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>5a3338a3-254f-44c3-ad1f-fca9276a5adf</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>hospital_redmission</value>
+         <variableId>362adb92-0ce5-4010-9da2-f7e5cb718067</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>5a3338a3-254f-44c3-ad1f-fca9276a5adf</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>facility</value>
+         <variableId>4fbee663-35ed-4b76-a36c-8d903690f07a</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>5a3338a3-254f-44c3-ad1f-fca9276a5adf</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>date</value>
+         <variableId>5a239752-0ee8-4df5-ab3d-633aaa399298</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>5a3338a3-254f-44c3-ad1f-fca9276a5adf</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>comment</value>
+         <variableId>38701bd4-a11a-4f28-8138-d8166b1cad88</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>5a3338a3-254f-44c3-ad1f-fca9276a5adf</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>healthcare_program</value>
+         <variableId>0ddc0098-cf65-401c-ad36-7a9c259fc87a</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

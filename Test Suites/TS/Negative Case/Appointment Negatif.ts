@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Appointment Negatif</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>3</numberOfRerun>
+   <pageLoadTimeout>10</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>68471271-2bb6-4479-98ca-f1e219dd32f6</testSuiteGuid>
+   <testCaseLink>
+      <guid>049cf4a8-c7ea-490d-8325-f9dbdc2c8c2c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Scenario/02 - Make Appointment/021 - Valid Make Appointment</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>b9de23cd-89fc-4436-9870-1d2c41d368f3</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Katalon Data/Appointment_Negatif</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>b9de23cd-89fc-4436-9870-1d2c41d368f3</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>hospital_redmission</value>
+         <variableId>362adb92-0ce5-4010-9da2-f7e5cb718067</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>b9de23cd-89fc-4436-9870-1d2c41d368f3</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>facility</value>
+         <variableId>4fbee663-35ed-4b76-a36c-8d903690f07a</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>b9de23cd-89fc-4436-9870-1d2c41d368f3</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>date</value>
+         <variableId>5a239752-0ee8-4df5-ab3d-633aaa399298</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>b9de23cd-89fc-4436-9870-1d2c41d368f3</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>comment</value>
+         <variableId>38701bd4-a11a-4f28-8138-d8166b1cad88</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>b9de23cd-89fc-4436-9870-1d2c41d368f3</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>healthcare_program</value>
+         <variableId>0ddc0098-cf65-401c-ad36-7a9c259fc87a</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

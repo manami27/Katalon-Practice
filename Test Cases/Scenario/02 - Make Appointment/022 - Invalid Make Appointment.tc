@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>022 - Invalid Make Appointment</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>3694917f-af71-4570-9b2c-f3edd484a4e0</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>80875841-de12-4ae9-9818-390800366585</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>540c28d9-6f30-41ff-bfc2-a011ee902eb3</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c695a453-a828-4e2c-ad82-5fb62e878e63</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>172ff71d-335c-483b-a2d3-e8c4b0d9b5d0</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>47cdd243-f533-407c-b322-056bcf4e7028</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>true</defaultValue>
+      <description></description>
+      <id>80875841-de12-4ae9-9818-390800366585</id>
+      <masked>false</masked>
+      <name>hospital_readmission</name>
+   </variable>
+   <variable>
+      <defaultValue>'Seoul CURA Healthcare Center'</defaultValue>
+      <description></description>
+      <id>540c28d9-6f30-41ff-bfc2-a011ee902eb3</id>
+      <masked>false</masked>
+      <name>facility</name>
+   </variable>
+   <variable>
+      <defaultValue>'30/07/2024'</defaultValue>
+      <description></description>
+      <id>c695a453-a828-4e2c-ad82-5fb62e878e63</id>
+      <masked>false</masked>
+      <name>visit_date</name>
+   </variable>
+   <variable>
+      <defaultValue>'comment like and subscribe'</defaultValue>
+      <description></description>
+      <id>172ff71d-335c-483b-a2d3-e8c4b0d9b5d0</id>
+      <masked>false</masked>
+      <name>comment</name>
+   </variable>
+   <variable>
+      <defaultValue>'Medicaid'</defaultValue>
+      <description></description>
+      <id>47cdd243-f533-407c-b322-056bcf4e7028</id>
+      <masked>false</masked>
+      <name>healthcare_program</name>
+   </variable>
+</TestCaseEntity>
